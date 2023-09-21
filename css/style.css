@@ -30,6 +30,30 @@ a {
     padding: 10px;
     color: #929cb0;
     font-weight: bold;
+    text-decoration: none;
+}
+
+footer p {
+    padding: 10px;
+    color: #929cb0;
+    font-weight: bold;
+    margin: 0px;
+}
+
+nav a:hover {
+    background-color: rgb(162, 164, 162);
+    color: white;
+    border-radius: 10px;
+}
+
+footer a:hover {
+    color: white;
+    border-radius: 10px;
+}
+
+div a:hover {
+    background-color: #0866c3;
+    color: white;
 }
 
 .product {
@@ -53,9 +77,65 @@ a {
     font-size: 16px;
 }
 
-.right-colmn a {
+.right-colmn a,
+.producten a {
     background-color: #0071e3;
     color: white;
     border-radius: 5px;
     padding-inline: 60px;
+}
+
+.omschrijving {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.omschrijving .left-colomn {
+    background-color: #e2e7f0;
+    flex: 1;
+    padding: 20px;
+}
+
+.omschrijving .right-colomn {
+    flex: 2;
+    padding: 20px;
+}
+
+.gerelateerde-producten {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.gerelateerde-producten .product {
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    display: flex;
+}
+
+.producten img {
+    width: 40%;
+}
+
+.producten {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #1a202c;
+    color: White;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    display: flex;
+    padding: 20px 300px;
+}
+
+footer a {
+    margin-bottom: 0px;
+    justify-content: center;
+    flex: 1;
 }
