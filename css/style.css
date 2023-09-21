@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    background-color: #f5f5f7;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+nav img {
+    margin-right: 10px;
+    margin-left: 150px;
+    width: 2%;
+    height: 2%;
+}
+
+a {
+    padding: 10px;
+    color: #929cb0;
+    font-weight: bold;
+}
+
+.product {
+    display: flex;
+    flex: 1;
+    gap: 150px;
+}
+
+.right-colmn h2 {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.right-colmn .product-name {
+    font-size: 32px;
+}
+
+.right-colmn .description {
+    font-size: 16px;
+}
+
+.right-colmn a {
+    background-color: #0071e3;
+    color: white;
+    border-radius: 5px;
+    padding-inline: 60px;
+}
